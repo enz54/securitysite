@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "start": "nodemon server"
+=======
+    "start": "node server"
+>>>>>>> 4abf87d3bac6b9734edce570e2ca97aa0434c358
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.1",
     "nodemon": "^1.19.2"
   },
@@ -17,3 +22,8 @@
     "node": "8.12.0"
   }
 }
+=======
+    "express": "^4.17.1"
+  }
+}
+>>>>>>> 4abf87d3bac6b9734edce570e2ca97aa0434c358
