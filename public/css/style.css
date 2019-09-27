@@ -14,7 +14,7 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: #C1343F;
+  color: #337ab7;
 }
 
 p {
@@ -30,7 +30,7 @@ li {
 
 
 a {
-  color: #DD4F53;
+  color: rgb(67, 69, 223);
 }
 
 /**  Header Navigation **/
@@ -42,7 +42,7 @@ header {
 header .jumbotron {
   height: 40vh;
   margin-bottom: 0;
-  background: url(../images/misc/background.jpg) no-repeat 100% 5%;
+  background: url(../images/misc/background1.png) no-repeat 100% 5%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

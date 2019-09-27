@@ -5,7 +5,9 @@
   <title>Willy Tight Security--Home</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
     integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
   <link rel='stylesheet' href='./css/style.css' />
+  <link rel='stylesheet' href='./css/stickyFooter.css' />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
   <meta name="viewport"
@@ -36,29 +38,10 @@
               <a href="./index.html"><i class="fas fa-home"></i> Home</a>
             </li>
             <li>
-              <a href="./speakers.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                aria-haspopup="true" aria-expanded="false"><i class="fas fa-users"></i> Speakers
-                <span class="caret">
-                  <span>
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="./speakers.html">All Speakers</a>
-                </li>
-                <li role="separator" class="divider"></li>
-                <li>
-                  <a href="/speakers/Lorenzo_Garcia">Lorenzo Garcia</a>
-                </li>
-                <li>
-                  <a href="./Hillary_Goldwynn.html">Hilary Goldywynn Post</a>
-                </li>
-                <li>
-                  <a href="/speakers/Riley_Rewington">Riley Rudolph Rewington</a>
-                </li>
-              </ul>
+              <a href="./speakers.html"><i class="fas fa-users"></i> Services</a>
             </li>
             <li>
-              <a href="./feedback.html"><i class="fas fa-phone-square-alt"></i> Feedback</a>
+              <a href="./contact.html"><i class="fas fa-phone-square-alt"></i> Contact Us</a>
             </li>
           </ul>
           <!-- nav -->
@@ -72,43 +55,26 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4 text-center">
-          <h3 class="speakerslist-title">Art in Full Bloom</h3>
-          <h5 class="speakerslist-name">with
-            <a href="/speakers/Lorenzo_Garcia">Lorenzo Garcia</a>
-          </h5>
+          <h3 class="speakerslist-title">ABOUT US</h3>
+
           <p class="speakerslist-info">
-            <a href="/speakers/Lorenzo_Garcia">
-              <img class="speakerslist-img img-circle" src="./images/speakers/Lorenzo_Garcia_tn.jpg"
-                alt="Photo of Lorenzo Garcia">
-            </a>
+            <a href="#aboutus"><i class="fas fa-users fa-7x"></i></a>
             </a>
             </a>
           </p>
         </div>
         <div class="col-sm-4 text-center">
-          <h3 class="speakerslist-title">Deep Sea Wonders</h3>
-          <h5 class="speakerslist-name">with
-            <a href="./Hillary_Goldwynn.html">Hilary Goldywynn Post</a>
-          </h5>
+          <h3 class="speakerslist-title">SERVICES</h3>
           <p class="speakerslist-info">
-            <a href="./Hillary_Goldwynn.html">
-              <img class="speakerslist-img img-circle" src="./images/speakers/Hillary_Goldwynn_tn.jpg"
-                alt="Photo of Hilary Goldywynn Post">
-            </a>
+            <a href="./Hillary_Goldwynn.html"><i class="fas fa-user-secret fa-7x"></i></a>
             </a>
             </a>
           </p>
         </div>
         <div class="col-sm-4 text-center">
-          <h3 class="speakerslist-title">The Art of Abstract</h3>
-          <h5 class="speakerslist-name">with
-            <a href="/speakers/Riley_Rewington">Riley Rudolph Rewington</a>
-          </h5>
+          <h3 class="speakerslist-title">CONTACT US</h3>
           <p class="speakerslist-info">
-            <a href="/speakers/Riley_Rewington">
-              <img class="speakerslist-img img-circle" src="./images/speakers/Riley_Rewington_tn.jpg"
-                alt="Photo of Riley Rudolph Rewington">
-            </a>
+            <a href="./contact.html"><i class="far fa-envelope-open fa-7x"></i></a>
             </a>
             </a>
           </p>
@@ -123,7 +89,7 @@
       <div class="col-sm-8">
         <div class="maincontent">
           <article class="article">
-            <h1 class="article-title">Who are we?</h1>
+            <h1 id="aboutus" class="article-title">Who are we?</h1>
             <p>The Roux Academy gets thousands of submissions every year for artists interesting in participating in the
               CAC
               exhibits, and selects approximately 200 distinct pieces of contemporary art for display in their
@@ -139,13 +105,6 @@
               careers in art.</p>
           </article>
           <!-- article -->
-          <article class="article">
-            <h1 class="article-title">Get Busy!</h1>
-            <p>If you want to keep up with what's going on with the group,
-              <a href="http://www.meetup.com/rouxmeet">join our meetup group</a>,
-              <a href="http://www.twitter.com/rouxmeet">follow us on twitter</a>. If you're in FaceBook, you can also
-              <a href="http://www.facebook.com/rouxmeet">join our FaceBook group</a>.</p>
-          </article>
         </div>
       </div>
       <!-- primary -->
@@ -159,34 +118,15 @@
           </ul>
         </article>
         <!-- article -->
-        <article class="sidebar">
-          <h1 class="sidebar-title">Artwork on display</h1>
-          <p class="sidebar-body">While you attend the conference, head over to our gallery where you can check out some
-            of the work from our speakers.</p>
-          <div class="pixgrid clearfix">
-            <img src="./images/artwork/Lorenzo_Garcia_01_tn.jpg" alt="Artwork 0">
-            <img src="./images/artwork/Lorenzo_Garcia_02_tn.jpg" alt="Artwork 1">
-            <img src="./images/artwork/Lorenzo_Garcia_03_tn.jpg" alt="Artwork 2">
-            <img src="./images/artwork/Lorenzo_Garcia_04_tn.jpg" alt="Artwork 3">
-            <img src="./images/artwork/Hillary_Goldwynn_01_tn.jpg" alt="Artwork 4">
-            <img src="./images/artwork/Hillary_Goldwynn_02_tn.jpg" alt="Artwork 5">
-            <img src="./images/artwork/Hillary_Goldwynn_03_tn.jpg" alt="Artwork 6">
-            <img src="./images/artwork/Hillary_Goldwynn_04_tn.jpg" alt="Artwork 7">
-            <img src="./images/artwork/Hillary_Goldwynn_05_tn.jpg" alt="Artwork 8">
-            <img src="./images/artwork/Hillary_Goldwynn_06_tn.jpg" alt="Artwork 9">
-            <img src="./images/artwork/Hillary_Goldwynn_07_tn.jpg" alt="Artwork 10">
-            <img src="./images/artwork/Riley_Rewington_01_tn.jpg" alt="Artwork 11">
-            <img src="./images/artwork/Riley_Rewington_02_tn.jpg" alt="Artwork 12">
-            <img src="./images/artwork/Riley_Rewington_03_tn.jpg" alt="Artwork 13">
-            <img src="./images/artwork/Riley_Rewington_04_tn.jpg" alt="Artwork 14">
-            <img src="./images/artwork/Riley_Rewington_05_tn.jpg" alt="Artwork 15">
-            <img src="./images/artwork/Riley_Rewington_06_tn.jpg" alt="Artwork 16">
-          </div>
-        </article>
       </aside>
       <!-- secondary -->
     </div>
   </div>
+  <footer class="footer">
+    <div class="container">
+      <h5 class="text-muted">@2019 enz54 Ltd</h5>
+    </div>
+  </footer>
   <!-- container -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"

@@ -6,7 +6,7 @@ const speakersRoute = require('./speakers');
 const feedbackRoute = require('./feedback');
 module.exports = () => {
     router.get('/', (req, res, next) => {
-        return res.render('index');
+        return res.send('Index');
     });
     router.use('/speakers', speakersRoute());
     router.use('/feedback', feedbackRoute());
