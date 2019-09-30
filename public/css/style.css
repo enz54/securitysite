@@ -33,6 +33,12 @@ a {
   color: rgb(67, 69, 223);
 }
 
+
+.col-lg-4 {
+  padding-top: 15px
+}
+
+
 /**  Header Navigation **/
 
 header {
